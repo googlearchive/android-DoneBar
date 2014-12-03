@@ -11,6 +11,6 @@ solutions:    [Mobile]
 github:       android-DoneBar
 level:        INTERMEDIATE
 icon:         screenshots/icon-web.png
-api_refs:
+apiRefs:
     - android:android.app.ActionBar
 license: apache2
