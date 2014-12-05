@@ -2,30 +2,30 @@ Android DoneBar Sample
 ===================================
 
 This sample shows how to create a custom view in the ActionBar to show a done button, using
-        2 alternative layouts. This is well suited for simple data entry activities, where the only
-        options for the user are to cancel or confirm the data changes.
+2 alternative layouts. This is well suited for simple data entry activities, where the only
+options for the user are to cancel or confirm the data changes.
 
 Introduction
 ------------
 
 API 11 introduced the [ActionBar][1] as a navigational UI element. In most cases, a custom view isn't required
-        or even recommended, as using a menu xml file is all that is needed to add action icons to it. However, it is
-        possible to use a custom view and it is useful in some cases.
+or even recommended, as using a menu xml file is all that is needed to add action icons to it. However, it is
+possible to use a custom view and it is useful in some cases.
 
-        This sample contains two activities with custom views in their action bar, each with a "done" button. These are
-        designed to be used with simple data entry screen where the only options for the user are to cancel or confirm
-        the changes.
+This sample contains two activities with custom views in their action bar, each with a "done" button. These are
+designed to be used with simple data entry screen where the only options for the user are to cancel or confirm
+the changes.
 
-        1. Create a layout for the [ActionBar][2].
-        2. In the activity, before setting the content view, inflate the view using the LayoutInflater.
-        3. Use `getActionBar()` to get the ActionBar, and set the display options with `ActionBar.DISPLAY_SHOW_CUSTOM`.
-        4. Set the custom view by calling `setCustomView(customActionBarView, new ActionBar.LayoutParams(
-        ViewGroup.LayoutParams.MATCH_PARENT,ViewGroup.LayoutParams.MATCH_PARENT))` on the ActionBar.
-        5. You can now set the content view of the Activity.
+1. Create a layout for the [ActionBar][2].
+2. In the activity, before setting the content view, inflate the view using the LayoutInflater.
+3. Use `getActionBar()` to get the ActionBar, and set the display options with `ActionBar.DISPLAY_SHOW_CUSTOM`.
+4. Set the custom view by calling `setCustomView(customActionBarView, new ActionBar.LayoutParams(
+ViewGroup.LayoutParams.MATCH_PARENT,ViewGroup.LayoutParams.MATCH_PARENT))` on the ActionBar.
+5. You can now set the content view of the Activity.
 
 
-        [1]: http://developer.android.com/design/patterns/actionbar.html
-        [2]: http://developer.android.com/reference/android/app/ActionBar.html
+[1]: http://developer.android.com/design/patterns/actionbar.html
+[2]: http://developer.android.com/reference/android/app/ActionBar.html
 
 Pre-requisites
 --------------
@@ -37,7 +37,7 @@ Pre-requisites
 Screenshots
 -------------
 
-<img src=screenshots/1-main.png height="400" alt="Screenshot"/> <img src=screenshots/2-done-bar.png height="400" alt="Screenshot"/> <img src=screenshots/3-done-button.png height="400" alt="Screenshot"/> 
+<img src="screenshots/1-main.png" height="400" alt="Screenshot"/> <img src="screenshots/2-done-bar.png" height="400" alt="Screenshot"/> <img src="screenshots/3-done-button.png" height="400" alt="Screenshot"/> 
 
 Getting Started
 ---------------
